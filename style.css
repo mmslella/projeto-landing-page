@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    font-family: 'inter';   
+  
+}
+
+
+#logo{
+    
+   margin-left: 50px;
+   margin-top: 50px;
+
+}
+#titulo-menu-superior{
+    
+    margin-left: 150px;
+    margin-top: 75px;
+    
+}
+#texto-menu-superior{
+
+    margin-left: 150px;
+    margin-top: 25px;  
+    padding-bottom: 100px;
+
+}
+
+#menusuperior{
+    background-image: url(imagens/fundo-menu-superior.svg);
+    color: white;
+}
+#menuinformacional{
+background-color: #EAECE5;
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+}
+
+.icone {
+ margin: 50px 0px 50px 100px;
+ padding: 10px;
+}
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+.titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+.textovideo{
+    color: #383838;
+    
+
+}
+.video{
+    margin: 50px 25px 75px 100px;
+}
+ 
+
+#carrossel{
+
+    background-color: #247BA0;
+
+
+
+}
+.titulo-carrossel {
+
+    color: #EAECE5;
+    padding: 50px;
+    text-align: center;
+
+    
+
+
+}
+#secaocards{
+
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+.cards {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#comentariotres{
+    display: none;
+    
+}
+
+
+.seta{
+    margin-top:55px ;
+    cursor: pointer;
+}
+
+
+
+.seta:hover{
+    transform:translate(-7px);
+    transition-duration: 0,5s;
+  
+}
+
+#formulario {
+    text-align: center;
+}
+    
+#tituloformulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838 ;
+}
+
+input{
+    
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    width: 250px;
+    height: 40px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+
+}
+
